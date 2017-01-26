@@ -1,0 +1,292 @@
+/*!
+ * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+ /*font*/
+*, h1, h3, .container-fluid * {
+	font-family: Arial;
+	color: #5F6062;
+}
+
+/*logo*/
+#logo img {
+	height: 46px;
+	margin: 23px;
+	background-color: white;
+}
+
+/*navbar*/
+.navbar  {
+	height: 92px;
+	background-color: white;
+	position: fixed;
+	width: 100%;
+}
+
+.navbar ul {
+	margin-top: 25px;
+}
+/*
+#navbar-qlik ul li a {
+	color: #9FA1A4;
+	font-size: 1.4em;
+}
+
+#navbar-qlik ul li a:hover {
+	background-color: white;
+	color: #4C8C2B;
+}
+*/
+/*view cart*/
+.btn {
+	color: white;
+	border: none;
+	border-radius: 2px;
+	text-transform: uppercase;
+	padding: 10px 25px;
+
+    background: #62AC1E;
+    background: -webkit-linear-gradient(RGB(97, 167, 41), RGB(76, 140, 43)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(RGB(97, 167, 41), RGB(76, 140, 43)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(RGB(97, 167, 41), RGB(76, 140, 43))); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(RGB(97, 167, 41), RGB(76, 140, 43)); /* Standard syntax */
+}
+
+.navbar .btn {
+	margin-top: 23px;
+}
+
+.btn:hover {
+	color: white;
+	background: #4C8C2B;
+}
+
+/*jumbtron*/
+.hero-spacer {
+	background-size: cover;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	margin-top: 95px;
+	position: fixed;
+	background-image: url("../elements/Qlik-Products-1440x500.jpg");
+	z-index: -1;
+}
+
+.hero-spacer p {
+	margin: 80px;
+	color: white;
+}
+
+/*footer*/
+#bottom-hr {
+	width: 100%;
+	border-color: #9FA1A4;
+}
+
+footer {
+	margin: 10px;
+	color: #9FA1A4;
+}
+
+.col-md-10 button {
+	margin-top: -8px;
+	margin-right: 10px;
+	color: #9FA1A4;
+	background: white;
+	text-transform: none;
+}
+
+.col-md-10 button:hover {
+	margin-top: -8px;
+	margin-right: 10px;
+	color: #4C8C2B;
+	background: white;
+}
+
+
+
+
+
+/*Dropdown*/
+/* Dropdown Button */
+.dropbtn {
+    color: #9FA1A4;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 5px;
+    font-size: 1.4em;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover{
+    color: #4C8C2B;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    background-color: white;
+    border-radius: 3px;
+    z-index: 1;
+    opacity: .9;
+    margin-left: 10px;
+    border: 1px solid #9FA1A4;
+    position: absolute;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #9FA1A4;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	color: #4C8C2B;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+/*Carousel*/
+#parallax-spacing {
+	height: 640px;
+}
+
+#white-background {
+	background-color: white;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.item hr {
+	width: 50%;
+	border-color: #4C8C2B;
+}
+
+.item p {
+	margin: 10px;
+}
+
+.item div div {
+	border: 1px solid #4C8C2B;
+	border-radius: 5px;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+.img-responsive {
+	height: 200px;
+	object-fit: contain;
+	margin-top: 5px;
+}
+
+.carousel-control img {
+	position: relative;
+	top: 170px;
+	height: 65px;
+}
+
+.carousel-inner {
+	text-align: center;
+	margin: 30px 0px;
+}
+
+.carousel-showmanymoveone .carousel-control {
+  width: 4%;
+  background-image: none;
+}
+.carousel-showmanymoveone .carousel-control.left img {
+  position: relative;
+  left: -25px;
+}
+.carousel-showmanymoveone .carousel-control.right img {
+  margin-left: 40px;
+}
+.carousel-showmanymoveone .cloneditem-1,
+.carousel-showmanymoveone .cloneditem-2,
+.carousel-showmanymoveone .cloneditem-3,
+.carousel-showmanymoveone .cloneditem-4,
+.carousel-showmanymoveone .cloneditem-5 {
+  display: none;
+}
+
+@media all and (min-width: 768px) {
+  .carousel-showmanymoveone .carousel-inner > .active.left,
+  .carousel-showmanymoveone .carousel-inner > .prev {
+    left: -50%;
+  }
+  .carousel-showmanymoveone .carousel-inner > .active.right,
+  .carousel-showmanymoveone .carousel-inner > .next {
+    left: 50%;
+  }
+  .carousel-showmanymoveone .carousel-inner > .left,
+  .carousel-showmanymoveone .carousel-inner > .prev.right,
+  .carousel-showmanymoveone .carousel-inner > .active {
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
+    display: block;
+  }
+}
+
+@media all and (min-width: 768px) and (transform-3d), all and (min-width: 768px) and (-webkit-transform-3d) {
+  .carousel-showmanymoveone .carousel-inner > .item.active.right,
+  .carousel-showmanymoveone .carousel-inner > .item.next {
+    -webkit-transform: translate3d(25%, 0, 0);
+    transform: translate3d(25%, 0, 0);
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner > .item.active.left,
+  .carousel-showmanymoveone .carousel-inner > .item.prev {
+    -webkit-transform: translate3d(-25%, 0, 0);
+    transform: translate3d(-25%, 0, 0);
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner > .item.left,
+  .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+  .carousel-showmanymoveone .carousel-inner > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    left: 0;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .carousel-showmanymoveone .carousel-inner > .active.left,
+  .carousel-showmanymoveone .carousel-inner > .prev {
+  }
+  .carousel-showmanymoveone .carousel-inner > .active.right,
+  .carousel-showmanymoveone .carousel-inner > .next {
+  }
+  .carousel-showmanymoveone .carousel-inner > .left,
+  .carousel-showmanymoveone .carousel-inner > .prev.right,
+  .carousel-showmanymoveone .carousel-inner > .active {
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner .cloneditem-2,
+  .carousel-showmanymoveone .carousel-inner .cloneditem-3,
+  .carousel-showmanymoveone .carousel-inner .cloneditem-4,
+  .carousel-showmanymoveone .carousel-inner .cloneditem-5,
+  .carousel-showmanymoveone .carousel-inner .cloneditem-6  {
+    display: block;
+  }
+}
