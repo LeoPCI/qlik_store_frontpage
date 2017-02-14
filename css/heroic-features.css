@@ -10,11 +10,21 @@
 	color: #5F6062;
 }
 
-/*logo*/
+/*logos*/
 #logo img {
-	height: 46px;
-	margin: 23px;
+	height: 56px;
+	margin: 33px;
+  margin-top: 19px;
+  margin-left: 0px;
 	background-color: white;
+}
+
+#created-by {
+  float: right;
+}
+
+.col-md-10 {
+  width: auto;
 }
 
 /*navbar*/
@@ -58,7 +68,7 @@
 	margin-top: 23px;
 }
 
-.btn:hover {
+.btn:hover, #btn:hover {
 	color: white;
 	background: #4C8C2B;
 }
@@ -72,7 +82,10 @@
 	margin-top: 95px;
 	position: fixed;
 	background-image: url("../elements/Qlik-Products-1440x500.jpg");
-	z-index: -1;
+}
+
+#btn {
+  z-index: 99;
 }
 
 .hero-spacer p {
@@ -165,14 +178,20 @@ footer {
 
 
 /*Carousel*/
+.container-fluid h3 {
+  margin-top: 20px;
+}
+
 #parallax-spacing {
 	height: 640px;
+  width: 0px;
 }
 
 #white-background {
 	background-color: white;
 	width: 100%;
 	padding-bottom: 20px;
+  position: relative;
 }
 
 .item hr {
@@ -195,8 +214,7 @@ h4 {
 
 .img-responsive {
 	height: 200px;
-	object-fit: contain;
-	margin-top: 5px;
+	object-fit: fill;
 }
 
 .carousel-control img {
